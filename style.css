@@ -1,0 +1,43 @@
+.data{
+    display: grid;
+  
+    grid-template-rows:100px 300px;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 5px;
+ 
+   
+}
+
+.c1{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(160, 236, 159);
+
+}
+.c2{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+    background-color: rgb(236, 160, 236);
+    
+}
+.c3{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    
+    background-color: rgb(236, 160, 236);
+}
+.c4{
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+    
+    background-color: rgb(236, 160, 236);
+}
+
+    
